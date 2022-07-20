@@ -42,17 +42,6 @@ const CodePage = () => {
     ":" +
     actualMin;
 
-  /*const fetchCode = () => {
-    axios
-      .post("https://dummy-ncp.moonproject.io/api/code/upload", {
-        email: { email },
-        code: { code },
-        purchase_time: { dateForApi },
-      })
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
-  };*/
-
   return (
     <CodePageContainer>
       <Head>Kódfeltöltés</Head>
