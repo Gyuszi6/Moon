@@ -1,6 +1,5 @@
 const useDate = () => {
   let actualDate = new Date();
-
   let month = "Július ";
   if (actualDate.getMonth === 8) {
     month = "Augusztus ";
